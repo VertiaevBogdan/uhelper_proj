@@ -1,0 +1,77 @@
+@import "../_variables";
+
+body {
+  background-color: $main-color;
+}
+
+a, a:visited {
+  color: $main-text-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $main-text-color;
+}
+
+p {
+  color: $main-text-color;
+}
+
+
+.wrapper {
+  max-width: 1440px;
+  padding: 2vw;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.primary-color {
+  color: $primary-color;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.mb-1-em {
+  margin-bottom: 1em;
+}
+
+.mb-2-em {
+  margin-bottom: 2em;
+}
+
+.mb-4-em {
+  margin-bottom: 4em;
+}
+
+.mr-1-em {
+  margin-right: 1em;
+}
+
+.mr-2-em {
+  margin-right: 2em;
+}
+
+.ml-1-em {
+  margin-left: 1em;
+}
+
+.ml-2-em {
+  margin-left: 2em;
+}
+
+.h-expressive {
+  color: $primary-color;
+  font-weight: bold;
+}
+
+.h-dark {
+  color: #0a0a0b;
+}

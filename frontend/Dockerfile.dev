@@ -1,0 +1,14 @@
+# Stage 1: Development
+FROM node:lts-alpine
+# Устанавливаем рабочую директорию
+WORKDIR /app
+# Копируем все файлы
+COPY package.json package-lock.json ./
+COPY . .
+# Устанавливаем зависимости
+RUN npm install
+# Открываем порт для Dev-сервера
+EXPOSE 3000
+
+# Запускаем Dev-сервер
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]

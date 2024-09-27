@@ -1,0 +1,33 @@
+.preview-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.preview-title h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.preview-title h3 {
+  color: $primary-color;
+}
+
+.preview-title p {
+  max-width: 40%;
+  text-align: center;
+}
+
+.preview-card img {
+  max-width: 20em;
+}
+
+.card-description {
+  background-color: $main-text-color;
+  max-width: 20em;
+  padding: 1em;
+}
+
+.card-text {
+  color: $secondary-text-color;
+}
