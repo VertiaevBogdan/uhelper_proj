@@ -13,18 +13,43 @@
               text="Sign Up"
               text-color="white"
               size="large"
+              @click="openLoginDialog"
             />
         </ul>
+        <LogIn
+          v-if="showLogInDialog"
+          @close="closeLoginDialog"
+        />
       </nav>
     </header>
   </div>
 </template>
 
 <script>
+import LogIn from "@/components/main-page/login/LogIn.vue";
+import { ref } from "vue";
+
 export default {
-  data() {
-    return {}
-  }
+  components: {
+    LogIn
+  },
+  setup() {
+    const showLogInDialog = ref(false);
+
+    const openLoginDialog = () => {
+      showLogInDialog.value = true;
+    }
+
+    const closeLoginDialog = () => {
+      showLogInDialog.value = false;
+    }
+
+    return {
+      showLogInDialog,
+      openLoginDialog,
+      closeLoginDialog
+    }
+  },
 }
 </script>
 

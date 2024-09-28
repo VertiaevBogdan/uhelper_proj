@@ -17,7 +17,7 @@ export default {
     MainHeader,
     MainAbout,
     MainPreview,
-    MainContact
+    MainContact,
   },
   setup() {
 
