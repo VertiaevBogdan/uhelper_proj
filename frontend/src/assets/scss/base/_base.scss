@@ -31,7 +31,13 @@ p {
   justify-content: space-between;
 }
 
+.justify-items-center {
+  justify-items: center;
+}
 
+.align-items-center {
+  align-items: center;
+}
 
 .primary-color {
   color: $primary-color;

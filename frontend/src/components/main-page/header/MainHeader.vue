@@ -2,7 +2,7 @@
   <div class="wrapper">
     <header>
       <nav class="flex space-between">
-          <span class="header_logo">U-Helper</span>
+          <span class="header-logo">U-Helper</span>
           <ul class="nav_list inline_flex">
             <li><router-link to='/home' class="nav_link">Home</router-link></li>
             <li><router-link to="subject" class="nav_link">Subject</router-link></li>
