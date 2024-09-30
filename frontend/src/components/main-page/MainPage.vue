@@ -20,7 +20,7 @@ export default {
     MainContact,
   },
   setup() {
-
+    return {};
   }
 }
 </script>
