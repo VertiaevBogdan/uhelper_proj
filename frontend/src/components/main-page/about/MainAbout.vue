@@ -36,7 +36,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 @import "@/assets/scss/global.scss";
 .nav_link {
   color: $main-text-color;
